@@ -6,6 +6,9 @@ namespace TaskJunior2._2
     {
         static void Main(string[] args)
         {
+            /// Извиняюсь, я случайно еще раз отправил, сейчас буду доделывать данное задание
+            /// по этим замечания : 1.  if (userInput != password)- не нужно проверять одно и тоже 2 раза. Посмотрите do while, а также вы можете не делать переменную для ввода пользователя
+            /// Спасибо!
             string password = "exit";
             string userInput = "start";
 
