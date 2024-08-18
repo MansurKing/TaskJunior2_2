@@ -9,20 +9,18 @@ namespace TaskJunior2._2
             string password = "exit";
             string userInput = "start";
 
+            Console.WriteLine("Приветствую тебя супер секретный агент, введи пароль : ");
+
             while (userInput != password)
             {
-            Console.WriteLine("Приветствую тебя супер секретный агент, введи пароль : ");
-            userInput = Console.ReadLine();
+                userInput = Console.ReadLine();
 
                 if (userInput != password)
-                { 
-                    Console.WriteLine("Вы ввели неправельный пароль, попробуйте еще раз!\n"); 
-                }
-                else if (userInput == password)
                 {
-                    Console.WriteLine("\nУрааа!!!, вот ваши самые секретные данные)))");
+                    Console.WriteLine("Вы ввели неправельный пароль, попробуйте еще раз!\n");
                 }
-            }  
+            }
+                Console.WriteLine("\nУрааа!!!, вот ваши самые секретные данные)))");
         }
     }
 }
